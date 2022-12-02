@@ -1,0 +1,137 @@
+body {
+  margin: 0;
+}
+
+/* Styles for registration */
+
+.registration-header {
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.registration-section {
+  margin: 0 auto;
+  margin-bottom: 30px;
+  flex-grow: 1;
+  padding: 16px;
+}
+
+.registration-section form {
+  font-family: "Courier New", Courier, monospace;
+  max-width: 600px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  border: 3px solid #2a2a2a;
+  padding: 15px;
+}
+
+.registration-section form .form-group {
+  margin-bottom: 5px;
+  font-size: larger;
+  display: flex;
+  flex-direction: column;
+}
+
+.registration-section form .form-group input {
+  flex-grow: 1;
+  min-height: 42px;
+  font-size: large;
+}
+
+.registration-section form .form-group select {
+  flex-grow: 1;
+  min-height: 42px;
+  font-size: large;
+}
+
+.registration-section form .section {
+  font-family: "Courier New", Courier, monospace;
+  font-size: x-large;
+  font-weight: bold;
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+
+.registration-section form .registration-error {
+  font-family: "Courier New", Courier, monospace;
+  font-size: x-large;
+  text-align: center;
+  color: rgba(255, 0, 0, 0.76);
+}
+
+.registration-section form .registration-success {
+  font-family: "Courier New", Courier, monospace;
+  font-size: x-large;
+  text-align: center;
+  color: rgba(25, 135, 84);
+  font-weight: bold;
+}
+
+.registration-section form #submit {
+  font-size: x-large;
+  background-color: #0be20b;
+  color: #2a2a2a;
+  border: 1px solid #2a2a2a;
+  padding: 12px 25px;
+  font-family: "Courier New", Courier, monospace;
+  cursor: pointer;
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+
+.registration-section form #cancel {
+  font-size: x-large;
+  background-color: rgba(255, 0, 0, 0.76);
+  color: #2a2a2a;
+  border: 1px solid #2a2a2a;
+  padding: 12px 25px;
+  font-family: "Courier New", Courier, monospace;
+  cursor: pointer;
+  margin: 0 auto;
+  text-decoration: none;
+}
+
+/* registration-complete styling */
+
+.registration-complete-section {
+  flex-grow: 1;
+  font-family: "Courier New", Courier, monospace;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 16px;
+}
+
+.registration-complete-section h1 {
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.registration-complete {
+  border: 3px solid #2a2a2a;
+  padding: 15px;
+}
+
+.registration-complete .section {
+  font-size: x-large;
+  font-weight: bold;
+  text-align: center;
+}
+
+/* Footer */
+
+.footer {
+  background-color: #2a2a2a;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
+}
+
+/* General Styles */
+
+.registration-form-container {
+  display: flex;
+  max-width: 1140px;
+  margin: 0 auto;
+}

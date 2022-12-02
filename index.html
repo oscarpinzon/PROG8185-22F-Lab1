@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PROG8185 Midterm</title>
+    <link rel="stylesheet" href="styles/styles.css" />
+  </head>
+
+  <body>
+    <h1 class="registration-header">Registration Form</h1>
+    <div class="registration-form-container">
+      <div class="registration-section">
+        <form
+          name="myForm"
+          method="post"
+          action=""
+          onsubmit="return validateForm()"
+        >
+          <div class="form-group">
+            <label for="username">Username</label>
+            <input type="text" name="username" id="username" />
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" />
+          </div>
+          <div class="form-group">
+            <label for="password">Password</label>
+            <input type="password" name="password" id="password" />
+          </div>
+          <div class="form-group">
+            <label for="phoneNumber">Phone number</label>
+            <input type="tel" name="phoneNumber" id="phoneNumber" />
+          </div>
+          <input type="submit" value="Register" name="register" id="submit" />
+          <a href="https://www.conestogac.on.ca/" id="cancel">Cancel</a>
+          <p class="registration-error" id="errors"></p>
+          <p class="registration-success"></p>
+        </form>
+      </div>
+      <div class="registration-complete-section">
+        <div class="registration-complete"></div>
+      </div>
+    </div>
+    <footer class="footer">
+      <p>© 2022 - PROG8185 Lab 1</p>
+      <p>Student Name: Oscar Pinzon</p>
+      <p>Student ID: 8778961</p>
+    </footer>
+    <!-- Script tag at the end as an old habit for loading scripts after the DOM -->
+    <script src="scripts/scripts.js"></script>
+  </body>
+</html>
